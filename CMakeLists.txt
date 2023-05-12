@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.26)
 
 project(yue)
 
+include_directories(src/lua-5.4.4)
+
 add_executable(yue
     src/main.cpp
     src/lua-5.4.4/lapi.c
